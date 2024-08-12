@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mystyles2.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Welcome to Coffee Haven</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Coffee Haven</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="container my-5">
+        <div class="text-center">
+            <h2>Home</h2>
+            <p>Welcome to Coffee Haven, your go-to place for the finest coffee blends.</p>
+        </div>
+    </div>
+
+    <div id="about" class="container my-5">
+        <h2>About Us</h2>
+        <p>Our story began with a passion for perfecting the art of coffee brewing. We source the best beans from around the world to bring you an unparalleled coffee experience.</p>
+        <img src="about-image.jpg" class="img-fluid" alt="Coffee beans">
+    </div>
+
+    <div id="menu" class="container my-5">
+        <h2>Menu</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Espresso</h3>
+                <ul>
+                    <li>Espresso - A classic shot of rich and flavorful espresso.</li>
+                    <li>Double Espresso - Twice the espresso for twice the energy.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Latte</h3>
+                <ul>
+                    <li>Classic Latte - Espresso with steamed milk and a light layer of foam.</li>
+                    <li>Vanilla Latte - Espresso with steamed milk, vanilla syrup, and a light layer of foam.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Cappuccino</h3>
+                <ul>
+                    <li>Cappuccino - Espresso with steamed milk and a thick layer of foam.</li>
+                    <li>Mocha Cappuccino - Espresso with steamed milk, chocolate syrup, and a thick layer of foam.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Specialties</h3>
+                <ul>
+                    <li>Caramel Macchiato - Espresso with steamed milk, vanilla syrup, and caramel drizzle.</li>
+                    <li>Flat White - Ristretto shots of espresso with steamed milk.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="registration" class="container my-5">
+        <h2>Registration</h2>
+        <form id="registrationForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+
+    <div id="contact" class="container my-5">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Reach out to us at (123) 456-7890 or visit us at 123 Coffee Lane.</p>
+        <img src="contact-image.jpg" class="img-fluid" alt="Coffee shop">
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Coffee Haven. All Rights Reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

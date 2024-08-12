@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mystyles2.css">
+    <style>
+        body{
+            background:url("./coffee20.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+    </style>
+    <form action="./login.html"></form>
+</head>
+<body>
+    
+        <header class="bg-dark text-white text-center py-3">
+            <h1>Welcome to Coffee Haven</h1>
+        </header>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Coffee Haven</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home5.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./menu5.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./registration2.html">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <center>
+        <h2>Registration Form</h2>
+        <br>
+        <br>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <br>
+            <br>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <br>
+            <br>
+            <button type="submit">Register</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </center>
+        </form>
+        <p id="error" class="error"></p>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Coffee Haven. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
